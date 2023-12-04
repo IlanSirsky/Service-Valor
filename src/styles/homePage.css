@@ -1,0 +1,35 @@
+body {
+    background-color: #21292a;
+}
+
+.background-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-image: url("https://www.itraveltelaviv.com/wp-content/uploads/2014/05/dreamstime_m_azrielli-mall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.separator {
+    width: 100%;
+    height: 30px;
+    background-color: #047297;
+}
+
+.popular-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    background-color: #047297;
+    border: white 2px solid;
+}
+

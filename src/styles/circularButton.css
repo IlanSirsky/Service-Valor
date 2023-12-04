@@ -1,0 +1,43 @@
+.custom-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-button {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+    margin-bottom: 5px;
+    background-color: #047297;
+    /* border: white 1px solid; */
+    border: none;
+}
+
+.circular-button:hover {
+    background-color: #384647;
+}
+
+.title {
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .circular-button {
+      width: 60px; /* Adjust width for smaller screens */
+      height: 60px; /* Adjust height for smaller screens */
+      margin: 25px;
+      margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .circular-button {
+      width: 50px; /* Adjust width for smaller screens */
+      height: 50px; /* Adjust height for smaller screens */
+      margin: 20px;
+      margin-bottom: 5px;
+    }
+  }
