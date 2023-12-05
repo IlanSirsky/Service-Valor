@@ -1,17 +1,17 @@
 import React from "react";
 import { Container} from "react-bootstrap";
-import "../styles/homePage.css";
+import "../styles/home/homePage.css";
 
 import HeaderNavbar from "../components/HeaderNavBar";
 import Footer from "../components/Footer";
-import CircularButton from "../components/CircularButton";
-import SearchBar from "../components/SearchBar";
+import CircularButton from "../components/home/CircularButton";
+import SearchBar from "../components/home/SearchBar";
 
 import { faBagShopping, faUtensils, faScrewdriverWrench, faHandshake, faUmbrellaBeach} from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="home">
             <HeaderNavbar />
 
             {/* Background Picture with Search Bar */}

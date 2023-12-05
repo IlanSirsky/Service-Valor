@@ -1,0 +1,32 @@
+.form-container {
+    border: #1b9fa8 1px solid;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.form-title {
+    color: #ffffff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button {
+    background-color: #047297;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #1b9fa8;
+}
+

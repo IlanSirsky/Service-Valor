@@ -1,0 +1,17 @@
+.social-link {
+    color: #ffffff;
+}
+
+.add-button {
+    background-color: #047297;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #1b9fa8;
+}

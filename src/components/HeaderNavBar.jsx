@@ -10,7 +10,7 @@ const HeaderNavbar = () => {
           <Nav className="ml-auto">
             <Nav.Link href="/" className="nav-link text-white">Home</Nav.Link>
             <Nav.Link href="/about" className="nav-link text-white">About</Nav.Link>
-            <Nav.Link href="/form" className="nav-link text-white">Upload Business</Nav.Link>
+            <Nav.Link href="/addBusiness" className="nav-link text-white">Upload Business</Nav.Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>

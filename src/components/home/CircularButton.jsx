@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import '../styles/circularButton.css';
+import '../../styles/home/circularButton.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
